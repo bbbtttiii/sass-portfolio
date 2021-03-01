@@ -12,10 +12,14 @@
       linear-gradient(
         to right,
         rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
+        rgba($primary-color, 0.4)
       ),
       url(../img/coffee.jpg);
     background-size: cover;
+
+    p {
+      margin-bottom: 2rem;
+    }
   }
   
   &_bio {
@@ -27,9 +31,6 @@
     }
   }
   
-  p {
-    margin-block-end: 2rem;
-  }
 
   .jobs {
     width: 60vw;
